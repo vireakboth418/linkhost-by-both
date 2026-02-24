@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: blueviolet;
+        padding: 10px;
+      }
+      #img {
+        list-style-image: url(../img/mushroom.png);
+      }
+      #pic {
+        list-style-image: url(../img/mushroom.png);
+      }
+      #contact {
+        list-style-image: url(../img/mushroom.png);
+      }
+      nav {
+        display: flex;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <center>This is contact us Page</center>
+      <nav>
+        <ul>
+          <li id="img"><a href="../quiz/index.html">Home page</a></li>
+          <li id="pic"><a href="../quiz/table.html">table</a></li>
+          <li id="contact"><a href="../quiz/contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form>
+      <label for="name">username</label>
+      <input required id="name" type="text" />
+      <label for="email">email</label>
+      <input type="email" />
+      <label id="password" for="password"
+        >Password<input type="password"
+      /></label>
+      <button>Submit</button>
+      <p>I can fix whatever you want just login and contact me.</p>
+    </form>
+  </body>
+</html>
